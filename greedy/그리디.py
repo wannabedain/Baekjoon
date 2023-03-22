@@ -55,6 +55,8 @@ while cnt <= M:
 
 print(num)
 
+
+
 """## [실전] 숫자 카드 게임"""
 
 import numpy as np
@@ -68,6 +70,8 @@ for i in range(N):
 
 max_val = np.max(list(map(int, min_N)))
 print(max_val)
+
+
 
 """## [실전] 1이 될 때까지
 ### 어떤 수 N이 1일 될 때까지의 다음의 두 과정 중 하나를 반복적으로 선택하여 수행
@@ -93,6 +97,8 @@ while N > 1:
         N -= N % K
 
 print(cnt)
+
+
 
 """## 01. 모험가 길드 
 ### 여행을 떠날 수 있는 그룹 수의 최대 값 구하기
@@ -120,6 +126,8 @@ while len(data) > 1:
     break
 
 print(cnt)
+
+
 
 """## 02. 곱하기 혹은 더하기
 - 숫자로만 이루어진 문자열 S가 주어졌을 대, 가장 큰 수를 구하는 프로그램
